@@ -1,8 +1,9 @@
-let {Command} = require('discordcs')
+// Comando de exemplo PING 
+let {Command} = require('discordcs') // Utilizar isso em cada comando novo 👌
 class ping extends Command{
      constructor(bot){
           super(bot,{
-               command: 'ping',
+               command: 'ping', // Nome do comando
       })
      }
 
@@ -11,4 +12,4 @@ class ping extends Command{
      }
 }
 
-module.exports = ping
+module.exports = ping // Modulo exportado do comando
