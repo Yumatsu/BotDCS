@@ -1,5 +1,6 @@
 // Comando de exemplo PING 
-let {Command} = require('discordcs') // Utilizar isso em cada comando novo 👌
+let {Command} = require('discordcs'), // Utilizar isso em cada comando novo 👌
+     Discord = require('discord.js')
 class ping extends Command{
      constructor(bot){
           super(bot,{
