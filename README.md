@@ -1,4 +1,2 @@
 # BotDCS
-```
-Primeiro bot em js, usando a Discord.CS
-```
+> Observação: Você não pode divulgar sua token do seru bot, seu bot pode estar envolvido em raid e etc... 
